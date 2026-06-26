@@ -1,0 +1,23 @@
+{
+  "name": "ScalpX",
+  "short_name": "ScalpX",
+  "description": "The sharpest trading desk in crypto. Live order-flow, signals and community.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060807",
+  "theme_color": "#060807",
+  "icons": [
+    {
+      "src": "/scalpx-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/scalpx-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

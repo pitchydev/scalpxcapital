@@ -1,0 +1,45 @@
+{
+  "name": "flow-x",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3010",
+    "dev:daemon": "pm2 start ecosystem.config.cjs",
+    "dev:stop": "pm2 delete flow-x 2>/dev/null || true",
+    "dev:restart": "pm2 restart flow-x",
+    "dev:logs": "pm2 logs flow-x --lines 50",
+    "dev:status": "pm2 status flow-x",
+    "build": "next build",
+    "start": "next start -p 3010",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@react-three/postprocessing": "^3.0.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.42.0",
+    "lenis": "^1.3.23",
+    "lucide-react": "^0.511.0",
+    "next": "15.5.19",
+    "postprocessing": "^6.39.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "tailwind-merge": "^3.6.0",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.184.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.19",
+    "playwright": "^1.61.1",
+    "pm2": "^6.0.14",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
