@@ -459,6 +459,12 @@ textarea {
   50% { opacity: 1; transform: scaleY(1.08); }
 }
 
+@keyframes pixelPop {
+  0% { transform: scale(1.35); }
+  60% { transform: scale(0.94); }
+  100% { transform: scale(1); }
+}
+
 .glass-panel {
   background: linear-gradient(145deg, rgba(10, 10, 10, 0.92) 0%, rgba(0, 0, 0, 0.8) 100%);
   border: 1px solid rgba(26, 26, 26, 0.95);

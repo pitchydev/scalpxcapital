@@ -6,7 +6,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 /** Routes that render their own nav/footer and should skip the global chrome. */
-const BARE_ROUTES = ["/crypto-hero"];
+const BARE_ROUTES = ["/crypto-hero", "/game"];
 /** Routes whose hero provides its own top nav - skip the global Navbar only. */
 const SELF_NAV_ROUTES = ["/"];
 

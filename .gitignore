@@ -32,3 +32,6 @@ yarn-error.log*
 _*.png
 _*.jpg
 /coins
+
+# raw game sprite sources (processed assets live in public/game)
+/sprites
