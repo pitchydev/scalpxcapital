@@ -67,7 +67,7 @@ function buildInstances(portrait: boolean): CoinInstance[] {
         symbol: SYMBOLS[i % SYMBOLS.length],
         start,
         end,
-        scale: r(0.16, 0.3) * depth,
+        scale: r(0.24, 0.44) * depth,
         spin: r(0.12, 0.4) * (rnd() > 0.5 ? 1 : -1),
         phase: r(0, Math.PI * 2),
         tiltStart: r(-0.4, 0.4),

@@ -31,3 +31,4 @@ yarn-error.log*
 # local generated previews / temp
 _*.png
 _*.jpg
+/coins
